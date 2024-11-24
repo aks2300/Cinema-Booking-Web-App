@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+My Reservations
+{% endblock %}
+
+{% block main %}
+<table class = "table">
+    <thead>
+        <th class = "border-0 text-start">Name</th>
+        <th class = "border-0 text-end">Date</th>
+        <th class = "border-0 text-end">Time</th>
+        <th class = "border-0 text-end">Reserved Seats</th>
+    </thead>
+    <tbody>
+        {% for list in lists %}
+        <tr>
+            <td class = "border-0 text-start">{{list.name}}</td>
+            <td class = "border-0 text-end">{{list.date}}</td>
+            <td class = "border-0 text-end">{{list.time}}</td>
+            <td class = "border-0 text-end">{{list.reserved}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

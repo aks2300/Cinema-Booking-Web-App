@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Add Movies
+{% endblock %}
+
+{% block main %}
+<h2>Add The Movie To The Database</h2>
+<hr>
+<form action = "/add" method="post">
+    <div class = "mb-3">
+        <input name = "name" class="form-control mx-auto w-auto" autocomplete = "off" placeholder ="Name" type = "text" autofocus>
+    </div>
+    <div class = "mb-3">
+        <input name = "date" class="form-control mx-auto w-auto" autocomplete = "off" placeholder="Date (dd-mm-yyyy)" type = "text">
+    </div>
+    <div class = "mb-3">
+        <input name = "time" class="form-control mx-auto w-auto" autocomplete = "off" placeholder="Time (hh:mm)" type = "text">
+    </div>
+    <div class = "mb-3">
+        <input name = "duration" class="form-control mx-auto w-auto" autocomplete = "off" placeholder="Duration (hh:mm)" type = "text">
+    </div>
+    <button type = "submit" class = "btn btn-dark">Add</button>
+</form>
+{% endblock %}

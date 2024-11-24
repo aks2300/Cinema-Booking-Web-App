@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Index
+{% endblock %}
+
+{% block main %}
+<h2>List of movies</h2>
+<hr>
+<table class = "table table-success">
+    <thead>
+        <tr>
+            <th class = "border-0 text-start">Name</th>
+            <th class = "border-0 text-end">Vaccant Seats</th>
+            <th class = "border-0 text-end">Date</th>
+            <th class = "border-0 text-end">Time</th>
+            <th class = "border-0 text-end">Duration</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for x in stateList %}
+        <tr>
+            <td class = "border-0 text-start">{{x.name}}</td>
+            <td class = "border-0 text-end">{{x.seat}}</td>
+            <td class = "border-0 text-end">{{x.date}}</td>
+            <td class = "border-0 text-end">{{x.time}}</td>
+            <td class = "border-0 text-end">{{x.duration}} hr</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
