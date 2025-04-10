@@ -8,4 +8,4 @@ Web application where users can create an account and reserve seats for the movi
 - HTML & CSS
 - SQL
 ## Try My Deployed Project 
-<a href = "https://discord.com/channels/1297218818132807683/1297218818854354976/1310142084862181398">https://discord.com/channels/1297218818132807683/1297218818854354976/1310142084862181398</a>
+<a href = "https://cinema-booking-web-app-l1mn.onrender.com">https://cinema-booking-web-app-l1mn.onrender.com</a>
