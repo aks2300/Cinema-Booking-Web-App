@@ -1,6 +1,11 @@
 # Cinema-Booking-Web-App
 Web application where users can create an account and reserve seats for the movies built with Python Flask.  
 
+This web application is capable of:
+- Responsive design
+- User authentication
+- Data retrieval from database
+- Custom route to add new movies title 
 
 
 ## Prequisites
