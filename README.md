@@ -12,5 +12,5 @@ This web application is capable of:
 - Python
 - HTML & CSS
 - SQL
-## Try My Deployed Project 
+## Check Out My Deployed Project 
 <a href = "https://cinema-booking-web-app-l1mn.onrender.com">https://cinema-booking-web-app-l1mn.onrender.com</a>
